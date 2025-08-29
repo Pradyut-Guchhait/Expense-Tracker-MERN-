@@ -128,7 +128,3 @@ cd server && npm ci && npm run start
 # Web
 cd web && npm ci && npm run build
 ```
-Serve the `web/dist` directory with any static server and deploy the API separately.
-
-## License
-MIT
