@@ -6,7 +6,7 @@ A full-stack expense tracking application built with MongoDB, Express, React, an
 
 ![Demo Image](assets/login.png)
 ![Demo Image](dashboard-b.png)
-![Demo Image](assets/Budget.png)
+![Demo Image](assets/budget.png)
 ![Demo Image](assets/dasboard-w.png)
 
 ## Tech Stack
