@@ -1,0 +1,58 @@
+# Root gitignore for MERN monorepo (server + web)
+
+# Node
+node_modules/
+**/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env files
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Build outputs
+/dist/
+/build/
+**/dist/
+**/build/
+
+# Vite/Next cache
+.vite/
+.next/
+**/.vite/
+**/.next/
+
+# Coverage
+coverage/
+**/coverage/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Misc
+*.local
+*.cache
+**/.cache/
+
+# Lockfiles (optional to keep repo lean; CI installs will generate)
+# If you prefer to commit lockfiles, remove the lines below
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+**/package-lock.json
+**/pnpm-lock.yaml
+**/yarn.lock
