@@ -89,8 +89,6 @@ Web (`web/`):
 - Expense CRUD with categories, notes, amount, date
 - Filters by date range, category, text search
 - Analytics service with charts (Recharts) and budget meter
-- CSV export
-- Email reminders via cron job
 - Theming and user settings
 
 ## Project Structure
@@ -100,8 +98,7 @@ Server highlights:
 - `src/server.js`: Server bootstrap
 - `src/models`: Mongoose models (`User`, `Expense`)
 - `src/routes`: API routes (`auth`, `expenses`, `analytics`, `users`)
-- `src/services`: Analytics and mailer services
-- `src/jobs`: Reminder cron job
+- `src/services`: Analytics services
 - `src/middleware`: Auth and error middleware
 
 Web highlights:
