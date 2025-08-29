@@ -3,10 +3,16 @@
 A full-stack expense tracking application built with MongoDB, Express, React, and Node.js. Features include authentication, expense CRUD, filtering, analytics, charts, CSV export, email reminders, theming, and user settings.
 
 ## Demo
-
+1. Login / SignUp Page
 ![Demo Image](assets/login.png)
-![Demo Image](dashboard-b.png)
-![Demo Image](assets/budget.png)
+
+3. Dashboard
+![Demo Image](assets/dashboard-b.png)
+
+5. Settings / Set Budget
+![Demo Image](assets/Budget.png)
+
+7. Light Mode Option
 ![Demo Image](assets/dasboard-w.png)
 
 ## Tech Stack
