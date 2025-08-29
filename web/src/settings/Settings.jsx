@@ -20,12 +20,11 @@ export default function Settings(){
   return (
     <div className="card" style={{ maxWidth: 520 }}>
       <h2 style={{ marginTop:0 }}>Settings</h2>
-      <p className="muted">Monthly budget (local demo only)</p>
+      <p className="muted">Monthly budget</p>
       <div style={{ display:'flex', gap:8 }}>
         <input className="input" type="number" value={mb} onChange={e=>setMb(e.target.value)} />
         <button className="btn btn-primary" onClick={save}>Save</button>
       </div>
-      <p className="muted" style={{ marginTop:12 }}>Tip: For production, add a protected endpoint to update `User.monthlyBudget`.</p>
     </div>
   );
 }
