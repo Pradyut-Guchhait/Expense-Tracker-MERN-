@@ -4,12 +4,12 @@ A full-stack expense tracking application built with MongoDB, Express, React, an
 
 ## Demo
 
-```md
-![Login/Registration](demo/login.png)
-![Dashboard](dashboard-b.png)
-![Setting/Budget](demo/Budget.png)
-![Light Mode Feature](demo/dasboard-w.png)
-```
+
+![Login/Registration].(assets/login.png)
+![Dashboard].(dashboard-b.png)
+![Setting/Budget].(assets/Budget.png)
+![Light_Mode].(assets/dasboard-w.png)
+
 
 ## Tech Stack
 - API: Node.js, Express, MongoDB (Mongoose)
@@ -79,7 +79,7 @@ Visit `http://localhost:5173` and ensure `VITE_API_URL` points to your API base,
 ## Available Scripts
 
 Server (`server/`):
-- `npm run dev`: Start API with nodemon
+- `npm run dev`: Start API with noassetsn
 - `npm start`: Start API (production)
 
 Web (`web/`):
