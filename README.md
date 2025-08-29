@@ -5,8 +5,6 @@ A full-stack expense tracking application built with MongoDB, Express, React, an
 ## Tech Stack
 - API: Node.js, Express, MongoDB (Mongoose)
 - Web: React, Vite, React Router, Recharts
-- Jobs/Background: Node cron for reminders
-- Email: Nodemailer
 
 ## Monorepo Layout
 ```
@@ -43,12 +41,8 @@ Create `.env` files based on the provided examples. Typical variables:
 Server (`server/.env`):
 ```
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/expense-tracker
+MONGO_URI=mongodb://localhost:27017/expense-tracker [change_me]
 JWT_SECRET=change_me
-MAIL_HOST=smtp.example.com
-MAIL_PORT=587
-MAIL_USER=your_user
-MAIL_PASS=your_pass
 BASE_URL=http://localhost:5000
 ```
 
@@ -122,12 +116,6 @@ cd server && npm ci && npm run start
 cd web && npm ci && npm run build
 ```
 Serve the `web/dist` directory with any static server and deploy the API separately.
-
-## Contributing
-1. Fork the repo and create a feature branch
-2. Make your changes with clear commits
-3. Run lint/tests if available
-4. Open a PR with a concise description
 
 ## License
 MIT
